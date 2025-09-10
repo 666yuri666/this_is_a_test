@@ -1,0 +1,77 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1b2838;
+  color: #c7d5e0;
+  margin: 0;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #66c0f4;
+}
+
+.screen {
+  display: none;
+  padding: 20px;
+}
+
+.screen.active {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  background-color: #2a475e;
+  color: #c7d5e0;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s;
+}
+
+button:hover {
+  background-color: #66c0f4;
+  color: #1b2838;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+#game-area {
+  position: relative;
+  margin: 20px auto;
+  width: 400px;
+  height: 300px;
+  background-color: #0f1a25;
+  border: 2px solid #66c0f4;
+}
+
+.target {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #66c0f4;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.target:hover {
+  background-color: #c7d5e0;
+}
+
+#goal, #high {
+  margin-top: 5px;
+}
+
+#response-options button {
+  display: block;
+  width: 60%;
+  margin: 10px auto;
+}

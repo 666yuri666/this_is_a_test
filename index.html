@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skill Issue Trainer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <div id="menu" class="screen active">
+      <h1>Skill Issue Trainer</h1>
+      <button class="menu-btn" data-mode="click-speed">Click Speed</button>
+      <button class="menu-btn" data-mode="random-aim">Random Aim</button>
+    </div>
+
+    <div id="game" class="screen hidden">
+      <h2 id="game-title"></h2>
+      <div id="game-area"></div>
+      <div id="timer"></div>
+      <div id="score"></div>
+      <div id="goal"></div>
+      <div id="high"></div>
+      <button id="start-btn">Start</button>
+      <button id="back-btn">Back to Menu</button>
+    </div>
+
+    <div id="result" class="screen hidden">
+      <h2>Results</h2>
+      <p id="waifu-comment"></p>
+      <div id="response-options"></div>
+      <p id="waifu-response" class="hidden"></p>
+      <button id="restart-btn">Restart</button>
+      <button id="menu-btn">Menu</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
