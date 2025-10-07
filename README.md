@@ -1,1 +1,1 @@
-Spread in Aregiya
+Spread in Aregiya.
